@@ -1,6 +1,5 @@
 @import 'tailwindcss';
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -14,3 +13,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face 
+{
+  font-family: "Departure";
+  src: url("./fonts/DepartureMonoNerdFontMono-Regular.otf") format("opentype");
+  font-style:italic;
+  font-weight:normal;
+}
+@theme
+{
+  --font-family-sans: "Departure", ui-sans-serif, system-ui, sans-serif;
+}
+
+main
+{
+  font-family: "Departure";
+}

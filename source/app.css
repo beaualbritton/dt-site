@@ -15,17 +15,17 @@
 
 @font-face 
 {
-  font-family: "Departure";
-  src: url("./fonts/DepartureMonoNerdFontMono-Regular.otf") format("opentype");
+  font-family: "Silver";
+  src: url("./fonts/Silver.ttf") format("truetype");
   font-style:italic;
   font-weight:normal;
 }
 @theme
 {
-  --font-family-sans: "Departure", ui-sans-serif, system-ui, sans-serif;
+  --font-family-sans: "Silver", ui-sans-serif, system-ui, sans-serif;
 }
 
 main
 {
-  font-family: "Departure";
+  font-family: "Silver";
 }

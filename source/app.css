@@ -29,3 +29,29 @@ main
 {
   font-family: "Silver";
 }
+
+.sync-pulse {
+  animation: sync-pulse-anim 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.sync-bounce {
+  animation: sync-bounce-anim 3s ease-in-out infinite;
+}
+
+@keyframes sync-pulse-anim {
+  0%, 100% { 
+    opacity: 1; 
+  }
+  50% { 
+    opacity: 0.6; 
+  }
+}
+
+@keyframes sync-bounce-anim {
+  0%, 100% { 
+    transform: translateY(0); 
+  }
+  50% { 
+    transform: translateY(-25%); 
+  }
+}

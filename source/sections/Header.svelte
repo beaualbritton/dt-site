@@ -2,7 +2,7 @@
   var bouncingText = "public\u00A0beta!";
 </script>
 
-<section>
+<section class = "w-3xl">
   <div class="flex justify-start items-center">
     <h1 class="font-semibold text-8xl text-shadow-lg/50">direc-tuit</h1>
     <div class="flex flex-row ml-2.5 mb-15 italic text-yellow-200">

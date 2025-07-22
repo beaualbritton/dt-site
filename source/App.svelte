@@ -32,7 +32,6 @@
 </script>
 
 <main class ="flex items-center flex-col h-screen">
-  <Nav />
   <div class = "flex items-center justify-center h-screen flex-col">
     <div class={`inline-block transition-all ease-in-out duration-${animationDuration} ${animationFlag? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'}`}>
       {#if currentSectionIndex > 0}

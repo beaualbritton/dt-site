@@ -22,7 +22,7 @@ import screenShot2 from '../static/screenshot2.png';
   <div class = "-mt-2.5 lg:-mt-5 flex justify-center px-2">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 place-items-center m-auto">  
       <img style="image-rendering: auto;"class = " lg:w-full w-fit rounded-xl shadow-lg hover:animate-pulse" src={demo1GIF} alt="Demo">
-      <img style="image-rendering: auto;"class = " w-fit rounded-xl shadow-lg hover:animate-pulse" src={screenShot2} alt="Demo">
+      <img style="image-rendering: auto;"class = "hidden  lg:block w-fit rounded-xl shadow-lg hover:animate-pulse" src={screenShot2} alt="Demo">
       <img style="image-rendering: auto;"class = " w-fit rounded-xl shadow-lg hover:animate-pulse" src={screenShot1} alt="Demo">
       <img style="image-rendering: auto;"class = " w-fit rounded-xl shadow-lg hover:animate-pulse" src={demo2GIF} alt="Demo">
     </div>

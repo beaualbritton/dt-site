@@ -16,8 +16,9 @@
 @font-face 
 {
   font-family: "Silver";
-  src: url("./fonts/Silver.ttf") format("truetype");
-  font-style:italic;
+
+  src: url("./fonts/Silver.woff2") format("woff2");
+  font-style:regular;
   font-weight:normal;
 }
 @theme

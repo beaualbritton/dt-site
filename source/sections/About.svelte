@@ -1,7 +1,8 @@
 <script>
 </script>
 
-<section class = "w-2xl">
+<section class = "w-3xl">
   <h1 class="font-semibold text-8xl text-shadow-lg/50">about</h1>
-  <p class ="text-xl">This is a small piece of software that I developed over the course of about two months. I would come home from my job, and work on this religiously. It was the perfect escape. I hope you might be able to find some use for it.</p>
+  <i class ="text-2xl">I put this together over the span of about two months.<br> Usually, after long days at a job I didn't quite like, <br> It was the perfect escape.<br> Something simple, focused, and mine.<br>I hope you might be able to find some use for it.</i>
+  <p class="mt-5 -mb-10 sync-pulse flex items-center justify-center">thanks for reading :^) </p>
 </section>

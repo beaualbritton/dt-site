@@ -1,4 +1,4 @@
-<section class = "max-w-xs lg:max-w-2xl text-start shadow-lg/75 p-4 py-8 lg:p-8 rounded-md mt-10 mb-10">
+<section class = "max-w-xs lg:max-w-2xl m-auto text-start shadow-lg/75 p-4 py-8 lg:p-8 rounded-md mt-10 mb-10">
   <div class="flex items-center justify-start text-center">
     <h1 class="font-semibold text-7xl lg:text-9xl text-shadow-lg/50">download</h1>
     <span

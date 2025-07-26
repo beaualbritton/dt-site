@@ -45,7 +45,7 @@
       <Separator on:click={navigateSectionDown} middleChar="▼" />
       {/if}
       {#if currentSectionIndex >= sectionArray.length-1}
-      <Separator middleChar="♥"/>
+      <Separator middleChar="☮"/>
       {/if}
     </div>
       

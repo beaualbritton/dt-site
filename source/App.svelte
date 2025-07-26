@@ -34,7 +34,7 @@
 
 <main class ="flex items-center flex-col h-screen">
   <div class = "flex items-center justify-center h-screen flex-col">
-    <div class={`inline-block transition-all ease-in-out duration-${animationDuration} ${animationFlag ? 'opacity-0 translate-y-6' : 'opacity-100 translate-y-0'}`} style="animation-duration: 3.5s;">
+    <div class={`transition-all ease-in-out duration-${animationDuration} ${animationFlag ? 'opacity-0 translate-y-6' : 'opacity-100 translate-y-0'}`} style="animation-duration: 3.5s;">
       {#if currentSectionIndex > 0}
       <Separator on:click={navigateSectionUp} middleChar="▲"/>
       {/if}

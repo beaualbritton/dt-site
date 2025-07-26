@@ -35,23 +35,41 @@ main
 }
 
 .sync-bounce {
-  animation: sync-bounce-anim 3s ease-in-out infinite;
+  animation: sync-bounce-anim 3s ease-in-out infinite alternate}
+
+
+  @keyframes sync-pulse-anim {
+    0%, 100% { 
+      opacity: 1; 
+    }
+    50% { 
+      opacity: 0.6; 
+    }
+  }
+
+  @keyframes sync-bounce-anim {
+    0%, 100% { 
+      transform: translateY(0); 
+    }
+    50% { 
+      transform: translateY(-25%); 
+    }
+  }
+
+@layer components {
+  @keyframes typing {
+    0%   { width: 0 }
+    40%  { width: var(--typing-width) }
+    56%  { width: var(--typing-width) }
+    100% { width: 0 }
+  }
+
+  .animate-typing {
+    display: inline-block;    /* so width can animate */
+    overflow: hidden;
+    white-space: nowrap;
+    animation:
+      typing calc(var(--character-count) * 1.5s) steps(var(--character-count)) infinite;
+  }
 }
 
-@keyframes sync-pulse-anim {
-  0%, 100% { 
-    opacity: 1; 
-  }
-  50% { 
-    opacity: 0.6; 
-  }
-}
-
-@keyframes sync-bounce-anim {
-  0%, 100% { 
-    transform: translateY(0); 
-  }
-  50% { 
-    transform: translateY(-25%); 
-  }
-}

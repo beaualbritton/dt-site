@@ -1,7 +1,7 @@
 <script>
   export let middleChar = "";
   let wWidth = 0;
-  $: sepWidth = 150;
+  $: sepWidth = 170;
   $: renderString = "═".repeat(sepWidth / 5);
 </script>
 
